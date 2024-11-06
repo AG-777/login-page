@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2"; // Import SweetAlert2
 import "./style.css"; // Ensure your styles are imported correctly
-
+import videoSrc from "./assets/BACK.mp4";
 const LoginPage = () => {
   const [isSignUp, setIsSignUp] = useState(false);
   const [signUpData, setSignUpData] = useState({
@@ -149,7 +149,7 @@ const LoginPage = () => {
 
       <div className="video-background">
         <video autoPlay muted loop>
-          <source src="../images/BACK.mp4" type="video/mp4" />
+          <source src={videoSrc} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
