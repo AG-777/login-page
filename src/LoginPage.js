@@ -141,7 +141,7 @@ const LoginPage = () => {
   return (
     <div>
       <div className="logo1">
-        <a href="../index.html">
+        <a href="https://ag-777.github.io/Real-Estate/">
           <img
             src="https://cdn.prod.website-files.com/60f685550f9f4d3b537d1987/60f68bab251e49651059fffc_logo.svg"
             alt="logo"
