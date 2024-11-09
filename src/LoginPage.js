@@ -109,6 +109,9 @@ const LoginPage = () => {
         onClose: () => {
           document.body.classList.remove("modal-open"); // Re-enable body scroll
         },
+      }).then(() => {
+        window.location.href =
+          "https://ag-777.github.io/Real-Estate/?isUserLogged=true"; // Replace with the URL you want to redirect to
       });
     } else {
       Swal.fire({
